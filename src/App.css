@@ -1,0 +1,77 @@
+header {
+  margin: 5px 20px;
+  padding: 0;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+nav {
+  padding: 10px;
+}
+
+.navlink {
+  padding: 10px;
+  text-decoration: none;
+  color: #000;
+  font-size: 17px;
+}
+
+.navlink:hover {
+  background-color: #ddd;
+}
+
+main {
+  height: 90%;
+  padding: 10px 20px;
+  margin: 15px 0;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.home {
+  height: 90%;
+  padding: 10px 20px;
+  margin: 15px 0;
+  border: 1px solid black;
+}
+
+.login-page {
+  min-height: 375px;
+  max-width: 478px;
+  width: 100%;
+}
+
+.form-login {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-control {
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.input-login {
+  outline: none;
+  font-size: 18px;
+}
+
+.login-span {
+  padding: 0;
+  text-align: right;
+}
+
+.button-login {
+  padding: 8px;
+  font-size: 18px;
+  background-color: transparent;
+}
+.student-list {
+  border-collapse: collapse;
+  border: #000 1px solid;
+}
